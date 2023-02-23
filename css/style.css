@@ -64,11 +64,24 @@ a:hover {
   margin-bottom: 100px;
 }
 
+.card-body p {
+  color: black;
+}
+
 .card-head {
   background-color: green;
-  height: 3rem;
+  /* height: 3rem; */
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+.card-head p {
+  font-size: xx-small;
+  font-weight: 200;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: white;
 }
 
 .copy-right {
@@ -217,7 +230,7 @@ h6 {
   box-shadow: 0 0 5px #35353563;
 }
 
-.free-ad-service {
+.free-service {
   font-size: xx-small;
   font-weight: 200;
   /* font-style: italic; */
@@ -227,7 +240,7 @@ h6 {
   color: white;
 }
 
-.free-ad-service-div {
+.free-service-div {
   background-color: black;
   /* background-color: rgb(13, 13, 172); */
   display: inline-block;
@@ -273,10 +286,6 @@ p {
   margin-bottom: 25px;
   padding-top: 25px;
   background: rgb(252, 245, 245);
-}
-
-.product-card p {
-  color: black;
 }
 
 .pricing-pg-noticeBoard {
@@ -409,6 +418,7 @@ p {
 
 .website-promotion-paid {
   background: #8f8f8f;
+  background: green;
   display: inline-block;
   padding: 5px 5px 0 5px;
   max-height: 25px;
@@ -523,7 +533,8 @@ p {
 }
 
 .package-plan-container {
-  margin: auto 25px 25px 25px;
+  /* margin: auto 25px 25px 25px; */
+  margin: auto 15% 25px 15%;
   margin-bottom: 25px;
   box-shadow: 0 0 5px #35353563;
 }
@@ -650,14 +661,8 @@ p {
 /* on screens within the specified max-width, only auto type text shows */
 /* auto type text appears when the navbar button is toggled down */
 @media (max-width: 768px) {
-  /* .digi-ad-container {
-    display: flex;
-    flex-direction: column;
-  } */
-
   .p-and-s-section {
     margin: 5% 2.5%;
-    /* text-align: center; */
   }
 
   .team-img-big-heading-original {
@@ -701,5 +706,17 @@ p {
   .digi-ad-container {
     margin-left: 25px;
     margin-right: 25px;
+  }
+}
+
+@media (max-width: 468px) {
+  .package-plan-container {
+    margin: auto 25px 25px 25px;
+  }
+}
+
+@media (max-width: 900px) and (min-width: 469px) {
+  .package-plan-container {
+    margin: auto 5% 25px 5%;
   }
 }
