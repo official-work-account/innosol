@@ -470,7 +470,7 @@ p {
 .p-and-s {
   font-size: 1.2rem;
   color: #145da0;
-  text-align: center;
+  text-align: left;
   margin-left: 25px;
 }
 
@@ -479,7 +479,7 @@ p {
   color: black;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  text-align: center;
+  text-align: left;
 }
 
 .p-and-s-des-container {
@@ -491,20 +491,35 @@ p {
 }
 
 .p-and-s-big-heading {
-  font-size: 2rem;
-  line-height: 0;
-  color: #8f8f8f;
+  color: white;
+  text-align: left;
+}
+
+.p-and-s-big-heading-div-1 p {
+  font-size: x-small;
+  color: white;
 }
 
 .p-and-s-big-heading-div-1 {
-  margin-top: 70px;
-  line-height: 2;
-  height: 2rem;
+  line-height: 0.5;
+  background-color: #145da0;
+  display: inline-block;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 
 .p-and-s-big-heading-div-2 {
-  margin-top: 95px;
-  margin-bottom: 25px;
+  line-height: 0.5;
+  background-color: #145da0;
+  display: inline-block;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 
 .pricing-plan {
