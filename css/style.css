@@ -69,7 +69,7 @@ a:hover {
 }
 
 .card-head {
-  background-color: green;
+  background-color: #145da0;
   /* height: 3rem; */
   padding-top: 5px;
   padding-bottom: 5px;
@@ -89,7 +89,7 @@ a:hover {
 }
 
 .check-mark {
-  color: green;
+  color: #145da0;
 }
 
 .clients {
@@ -122,7 +122,7 @@ a:hover {
   padding: 25px;
   margin: 1px;
   box-shadow: 3px 3px 5px #35353563;
-  background-color: green;
+  background-color: #145da0;
   /* border: 1px solid black; */
 }
 
@@ -417,8 +417,7 @@ p {
 }
 
 .website-promotion-paid {
-  background: #8f8f8f;
-  background: green;
+  background: #145da0;
   display: inline-block;
   padding: 5px 5px 0 5px;
   max-height: 25px;
@@ -548,7 +547,6 @@ p {
 }
 
 .package-plan-container {
-  /* margin: auto 25px 25px 25px; */
   margin: auto 15% 25px 15%;
   margin-bottom: 25px;
   box-shadow: 0 0 5px #35353563;
