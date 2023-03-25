@@ -35,8 +35,7 @@ body.pricing {
   text-align: center;
   margin-top: 35px;
   margin-bottom: 50px;
-  background: url(https://i.pinimg.com/originals/6e/32/87/6e32878542a4a6b86e640204d951fbff.jpg)
-    #c8d9fd;
+  background: url(https://cdn.wallpapersafari.com/15/54/xari2t.jpg) #c8d9fd;
   background-size: cover;
 }
 
@@ -553,7 +552,7 @@ p {
 .package-plan-container {
   margin: auto 15% 25px 15%;
   margin-bottom: 25px;
-  box-shadow: 0 0 5px #35353563;
+  /* box-shadow: 0 0 5px #35353563; */
 }
 /* new section ends */
 
