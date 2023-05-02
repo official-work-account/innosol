@@ -561,7 +561,7 @@ p {
 .contentBox .content h6 {
   display: inline-block;
   padding: 5px 10px;
-  background: rgb(85, 84, 84);
+  background: rgb(104, 102, 102);
   color: white;
   text-decoration: none;
   border-radius: 5px;
@@ -570,7 +570,7 @@ p {
 }
 
 .contentBox .content h6:hover {
-  background: rgb(58, 57, 57);
+  background: rgb(0, 0, 0);
 }
 
 .popup {
