@@ -233,7 +233,16 @@ h6 {
   box-shadow: 0 0 5px #35353563;
 }
 
-.free-service {
+.digital-marketing-h2 {
+  font-size: xx-small;
+  font-weight: 200;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: black;
+}
+
+.digital-marketing-special-offer {
   font-size: xx-small;
   font-weight: 200;
   font-family: Arial, Helvetica, sans-serif;
@@ -242,7 +251,7 @@ h6 {
   color: white;
 }
 
-.free-service-div {
+.digital-marketing-special-offer-div {
   background-color: black;
   /* background-color: rgb(13, 13, 172); */
   display: inline-block;
