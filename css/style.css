@@ -88,7 +88,12 @@ a:hover {
 }
 
 .check-mark {
-  color: #145da0;
+  /* color: #145da0; */
+  color: green;
+}
+
+.x-mark {
+  color: red;
 }
 
 .clients {
@@ -233,7 +238,7 @@ h6 {
   box-shadow: 0 0 5px #35353563;
 }
 
-.digital-marketing-h2 {
+.pricing-pg-small-heading {
   font-size: xx-small;
   font-weight: 200;
   font-family: Arial, Helvetica, sans-serif;
