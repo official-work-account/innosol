@@ -17,7 +17,7 @@ close.addEventListener("click", () => {
 
 // Auto Typesript control code
 var typed = new Typed(".we-do", {
-  strings: ["SOFTWARES", "WEBSITES", "DIGITAL AD AND MORE..."],
+  strings: ["SOFTWARE", "WEBSITE", "DIGITAL MARKETING & MORE..."],
   typeSpeed: 100,
   backSpeed: 100,
   loop: true,
