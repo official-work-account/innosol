@@ -108,6 +108,12 @@ a:hover {
   border: 0.5px solid #9dc7ee;
 }
 
+.client-logo {
+  height: 142.328px;
+  width: 215.5px;
+  object-fit: contain;
+}
+
 .clients h6 {
   font-size: smaller;
   color: #145da0;

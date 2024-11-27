@@ -47,11 +47,13 @@ $(document).ready(function () {
 });
 // owl carousel control
 $(".owl-carousel").owlCarousel({
+  // rewind: true,
   loop: true,
   margin: 10,
   nav: false,
   autoplay: true,
-  autoplayTimeout: 2000,
+  autoplayTimeout: 3000,
+  autoplayHoverPause: true,
   dots: false,
   responsive: {
     0: {
