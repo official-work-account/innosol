@@ -579,18 +579,16 @@ p {
 /* popup starts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 
-.contentBox .content h6 {
+.contentBox .content h4,
+.contentBox .content h5 {
   display: inline-block;
   padding: 5px 10px;
-  background: rgb(104, 102, 102);
-  color: white;
+  color: #145da0;
   text-decoration: none;
   border-radius: 5px;
-  font-size: small;
-  cursor: pointer;
 }
 
-.contentBox .content h6:hover {
+.contentBox .content a:hover {
   background: rgb(0, 0, 0);
 }
 
@@ -651,12 +649,14 @@ p {
   letter-spacing: 1px;
 }
 
-.contentBox .content h3 {
-  color: #145da0;
-  line-height: 1em;
-  font-weight: 500;
-  font-size: 2em;
-  font-family: "Poppins", sans-serif;
+.contentBox .content a {
+  color: white;
+  background-color: rgb(104, 102, 102);
+  font-family: "montserrat", sans-serif;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: small;
 }
 
 .contentBox .content p {
@@ -669,6 +669,10 @@ p {
 
 .contentBox .content {
   margin-bottom: 10px;
+}
+
+.contentBox .content .close-pop-up {
+  cursor: pointer;
 }
 
 .close {
