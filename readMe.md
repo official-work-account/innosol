@@ -1,4 +1,4 @@
-# whatsapp chat widget
+# whatsapp chat widget code
 
   <div id="whatswidget-pre-wrapper" class="">
     <div id="whatswidget-widget-wrapper" class="whatswidget-widget-wrapper" style="all:revert;">
