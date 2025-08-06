@@ -154,16 +154,6 @@ a:hover {
   justify-content: center;
 }
 
-.digi-ad-discount {
-  font-size: xx-small;
-  font-weight: 200;
-  font-style: italic;
-  font-family: Arial, Helvetica, sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  padding-top: 10px;
-}
-
 .digi-ad-discount,
 .digi-ad-discount a {
   font-size: xx-small;
