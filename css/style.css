@@ -190,8 +190,7 @@ a:hover {
 
 .go-back-to-home {
   color: blue;
-  font-weight: bold;
-  /* margin: 25px; */
+  font-size: smaller;
 }
 
 h1,
@@ -205,6 +204,14 @@ h6 {
 
 .pricing p {
   font-weight: normal;
+}
+
+.no-discount {
+  font-size: xx-small;
+  font-weight: 200;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .icons {
